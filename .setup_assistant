@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: separable_jaws_description
+    relative_path: urdf/separable_jaws.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/separable_jaws.srdf
+  CONFIG:
+    author_name: quantumspawner
+    author_email: jet22854111@gmail.com
+    generated_timestamp: 1668048664
