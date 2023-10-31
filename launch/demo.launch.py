@@ -20,7 +20,7 @@ def generate_launch_description():
     arguments.append(
         DeclareLaunchArgument(
             "using_right_arm",
-            default_value="true",
+            default_value="false",
             description="Arguement to determine wether to use right arm.",
         )
     )
@@ -84,7 +84,7 @@ def generate_launch_description():
             file_path=robot_description_file,
             mappings={
                 "using_left_arm": "true",
-                "using_right_arm": "true",
+                "using_right_arm": "false",
                 "using_fake_hardware": "true",
                 "using_gazebo": "false",
             },
